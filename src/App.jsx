@@ -27,17 +27,14 @@ const router = createBrowserRouter(
        <Route path='*' element={<NoteFound/>}/>
     </Route>
    
-    )
-)
+    ),
+    {
+      basename: "/Zarrin",
+    }
+);
 
-  return (
-    <div>
-      <RouterProvider router={router} />
-      
-      
-     
-    </div>
-  )
+  return <RouterProvider router={router} />
+  
 }
 
 export default App
