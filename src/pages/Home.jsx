@@ -4,6 +4,7 @@ import backgroundImg from '../assets/background img.png'
 import backgroundImg2 from '../assets/background img2.png'
 import Homecard from '../components/Homecard'
 import Homecard2 from '../components/Homecard2'
+import { NavLink } from 'react-router-dom'
 
 
 const Home = () => {
@@ -24,12 +25,11 @@ const Home = () => {
 
 
     {/* hero 2 section  */}
-    <div className='w-full px-[6%] py-8 md:my-[18%] lg:my-[10%]'>
-      {/* <div className='hidden md:block w-full h-fit my-16 mx-auto p-12 rounded-[10px]' style={{ backgroundImage: `url(${backgroundImg})`, width: '100%', height: '800px ', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', rounded: '[10px]' }}> */}
+    <div className='hidden md:block w-fit mx-[6%] py-8 md:my-[18%] lg:my-[10%] relative h-[499.75px] md:h-[580.75px] lg:h-[696px]'>
 
-        <div className="hidden md:block m-auto basis-1/2 "><img className="w-full h-fit md:h-[413.58px] lg:h-[576px] object-fill" src={backgroundImg} alt="" />
+        <img className="w-full h-fit md:h-[413.58px] lg:h-[576px] object-fill" src={backgroundImg} alt="" />
         
-        <div className='flex flex-col justify-center md:gap-3 lg:gap-6 bg-white absolute pr-20 pl-4 py-6 right-[6%] md:top-[210%] lg:top-[220%] rounded-md w-[65%] h-fit shadow-[0_4px_4px_rgba(0,0,0,0.25)]'>
+        <div className='flex flex-col justify-center md:gap-3 lg:gap-6 bg-white absolute pr-20 pl-4 py-6 right-0 rounded-md w-3/4 lg:bottom-2 md:bottom-0 h-fit shadow-[0_4px_4px_rgba(0,0,0,0.25)]'>
           <div className='flex gap-4'>
             <p className='font-bold md:text-[8.62px] lg:text-[12px] leading-[150%] tracking-normal text-left text-[#333333] font-roboto'>DEVELOPMENT</p>
           <p className='font-medium md:text-[8.62px] lg:text-[12px] leading-[150%] tracking-normal text-[#999999] font-roboto'>16 March 2023</p>
@@ -37,10 +37,10 @@ const Home = () => {
           <h2 className='font-bold md:text-[22.98px] lg:text-[30px] leading-[45px] tracking-[0.2px] text-left text-[#333333] font-raleway'>How to make a Game look more attractive with New VR & AI Technology</h2>
           <p className='font-normal md:text-[11.49px] lg:text-[15px] leading-[28px] tracking-normal text-left text-[#666666] font-raleway'>Google has been investing in AI for many years and bringing its benefits to individuals, businesses and communities. Whether it’s publishing state-of-the-art research, building helpful products or developing tools and resources that enable others, we’re committed to making AI accessible to everyone.
         </p>
-          <button className='md:px-[15px] lg:px-[30px]  md:py-2 lg:py-4 border border-[#7C4EE4] rounded-md bg-white text-[#7C4EE4] cursor-pointer font-semibold text-base w-fit'>Read More</button>
+          <NavLink to='/Singlepage.jsx'><button className='md:px-[15px] lg:px-[30px]  md:py-2 lg:py-4 border border-[#7C4EE4] rounded-md bg-white text-[#7C4EE4] cursor-pointer font-semibold text-base w-fit'>Read More</button></NavLink>
         </div>
         
-        </div>
+       
         </div>
 
       <div className='hidden  md:flex justify-between items-center md:mt-18 lg:mt-10 mb-4 px-[6%] py-8'>

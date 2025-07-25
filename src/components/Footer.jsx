@@ -9,8 +9,8 @@ const Footer = () => {
         <div className='flex flex-col justify-center items-center gap-2 md:gap-4 lg:gap-8 w-full bg-[#7C4EE4] text-center px-[4%] md:px-[14%] lg:px-[18%] py-[5rem]'>
             {/* <img className='vector' src={vector} alt="" /> */}
             <h2 className='font-[Raleway] font-bold text-[30px]  md:text-[37px] lg:text-[52px] leading-[48px] tracking-[0.2px] text-center text-white'>Get our stories delivered From us to your inbox weekly.</h2>
-            <div className='flex justify-between items-center gap-4'><input className='w-full md:w-[280px] h-[45px] rounded-[8px] border-none pl-[5px]' type="text" placeholder='Your Email' />
-            <button className='px-[20px] md:px-[15px] lg:px-[20px] py-[10px] border-2 border-white rounded-[8px] bg-[#7C4EE4] text-white cursor-pointer font-semibold text-[5px] md:text-[12px] lg:text-[16px]'>Get Started</button></div>
+            <div className=' flex justify-between items-center gap-4'><input className='w-full md:w-[280px] h-[45px] rounded-[8px] border-none pl-[5px]' type="text" placeholder='Your Email' />
+            <button className='whitespace-nowrap px-[10px] md:px-[14px] lg:px-[18px] py-[10px] border-2 border-white rounded-[8px] bg-[#7C4EE4] text-white cursor-pointer font-semibold text-[13px] md:text-[15px] lg:text-[16px]'>Get Started</button></div>
             <p className='font-[Raleway] font-normal text-[11.49px] md:text-[11.49px] lg:text-[16px] leading-[28px] tracking-[0px] text-center text-[#BBBBBB] px-[6%] md:px-[14%] lg:px-[16%]'>Get a response tomorrow if you submit by 9pm today. If we received after 9pm will get a reponse the following day.</p>
         </div>
         <div className="flex flex-col justify-center items-center gap-8 w-full bg-white text-center p-12">

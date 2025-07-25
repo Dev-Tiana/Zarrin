@@ -11,7 +11,7 @@ const Navbar = () => {
   const handleToggle = () => setOpen(prev=>!prev);
   return (
     <div className='w-full flex justify-between items-start md:items-center px-[5%] py-[15px] '>
-        <img src={logo} alt="" />
+       <NavLink to='/'><img src={logo} alt="" /></NavLink>
         <div className='hidden md:flex '>
         <ul className='inline-block px-[10px] py-[10px] mx-[10px]'>
             <NavLink to='/'><li className='inline-block mx-[10px] px-[10px] py-[5px]'></li></NavLink>
